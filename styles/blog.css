@@ -1,0 +1,57 @@
+header{
+    position: absolute !important;  
+}
+
+.topic_text{
+    text-decoration: none;
+    color: var(--var-color1);
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.caroussel_img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2vw;
+    width: 100%;
+    height: auto;
+}
+
+.caroussel_img span {
+    width: 5vw;
+    height: 5vw;
+}
+
+.caroussel_img span img {
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.container_topic {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    gap: 3vw;
+}
+
+.container_topic p{
+    font-size: 1.5vw;
+    color: var(--var-color1);
+}
+
+.container_allTopics{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin-top: var(--var-marginheader);
+    width: 100%;
+    height: 100vh;
+    align-content: flex-start;
+    padding: 3vw;
+}
