@@ -22,6 +22,12 @@ header{
 .caroussel_img span {
     width: 5vw;
     height: 5vw;
+    text-align: center;
+}
+.caroussel_img span a p {
+    color: var(--var-color1);
+    font-size: 0.5vw;
+    text-decoration: none;
 }
 
 .caroussel_img span img {

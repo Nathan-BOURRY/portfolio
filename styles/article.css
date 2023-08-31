@@ -65,5 +65,10 @@ header{
     object-fit: cover;
 }
 
+.dezoom img{
+    /* scale: 0.8; */
+    /* width: 5vw; */
+}
+
 
 
